@@ -13,6 +13,7 @@ from calculator import Calculator
 calc = Calculator()
 print(calc.add(2, 3))  # Output: 5
 print(calc.subtract(5, 2))  # Output: 3
+print(calc.multiply(4, 3))  # Output: 12
 ```
 ## Tests
 To run the tests, use the following command:
