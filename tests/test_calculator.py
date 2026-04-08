@@ -16,3 +16,9 @@ class TestCalculator:
         assert self.calculator.subtract(1, -1) == 2
         assert self.calculator.subtract(0, 0) == 0
         assert self.calculator.subtract(-5, -5) == 0
+
+    def test_multiply(self):
+        assert self.calculator.multiply(2, 3) == 6
+        assert self.calculator.multiply(-1, 1) == -1
+        assert self.calculator.multiply(0, 5) == 0
+        assert self.calculator.multiply(-5, -5) == 25
