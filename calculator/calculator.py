@@ -1,0 +1,6 @@
+class Calculator:
+    """A simple calculator class that provides basic arithmetic operations."""
+
+    def add(self, a, b):
+        """Return the sum of a and b."""
+        return a + b
